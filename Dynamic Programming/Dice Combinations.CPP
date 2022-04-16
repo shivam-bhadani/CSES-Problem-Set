@@ -8,6 +8,7 @@ using namespace std;
 
 typedef long long ll;
 
+ll MOD = 1e9 + 7;
 ll dp[1000005];
  
 ll solve(ll s) {
