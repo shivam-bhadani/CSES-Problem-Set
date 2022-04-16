@@ -15,7 +15,7 @@ int main() {
     int n = a.size(), m = b.size();
     int dp[n+5][m+5];
     for(ll i=0; i<=n; i++) {
-        for(ll i=0; i<=m; i++) {
+        for(ll j=0; j<=m; j++) {
             if(i==0 || j==0) {
                 dp[i][j] = max(i, j);
             }
